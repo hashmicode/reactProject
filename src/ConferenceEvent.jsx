@@ -154,7 +154,7 @@ const totalCosts = {
     return (
         <>
             <navbar className="navbar_event_conference">
-                <div className="company_logo">Conference Expense Planner</div>
+                <div className="company_logo">Event Budget Planner</div>
                 <div className="left_navbar">
                     <div className="nav_links">
                         <a
@@ -184,7 +184,7 @@ const totalCosts = {
 
                     </div>
                     <button className="details_button" onClick={() => setShowItems(!showItems)}>
-                        Show Details
+                        Cost Overview
                     </button>
                 </div>
             </navbar>
@@ -198,7 +198,7 @@ const totalCosts = {
               <div id="venue" className="venue_container container_main">
         <div className="text">
  
-          <h1>Venue Room Selection</h1>
+          <h1>Venue Selection</h1>
         </div>
         <div className="venue_selection">
           {venueItems.map((item, index) => (
@@ -264,7 +264,7 @@ const totalCosts = {
 
                                 <div className="text">
 
-                                    <h1> Add-ons Selection</h1>
+                                    <h1> Add-on Services Selection</h1>
 
                                 </div>
                                 <div className="addons_selection">
@@ -293,7 +293,7 @@ const totalCosts = {
 
                                 <div className="text">
 
-                                    <h1>Meals Selection</h1>
+                                    <h1>Meals Planning</h1>
                                 </div>
 
                                 <div className="input-container venue_selection">

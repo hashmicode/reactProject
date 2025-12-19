@@ -4,10 +4,10 @@ const AboutUs = () => {
     return (
         <div className="aboutus_container">
             <p>
-                Welcome to BudgetEase Solutions, your trusted partner in simplifying budget management and financial solutions. At BudgetEase, we understand the importance of effective budget planning and strive to provide intuitive, user-friendly solutions to meet the diverse needs of our clients.
+                Welcome to ConferenceEase, a modern platform designed to simplify budgeting and financial planning for events and conferences. We understand the importance of effective cost management, which is why our solutions are built to be intuitive, practical, and easy to use.
             </p>
-            <p>With a commitment to efficiency and innovation, we empower individuals and businesses to take control of their finances and achieve their goals with ease.</p>
-            <p>At BudgetEase Solutions, our mission is to make budgeting effortless and accessible for everyone. Whether you're a small business owner, a busy professional, or an individual looking to manage your personal finances, we offer tailored solutions to streamline your budgeting process.
+            <p>Driven by innovation and efficiency, ConferenceEase helps individuals and organizations take control of their budgets and confidently achieve their planning goals.</p>
+            <p>Our mission is to make event budgeting simple and accessible for everyone, whether you are organizing a large conference, managing professional events, or planning smaller meetings.
             </p>
             {/* <p>                Our team of experts is dedicated to providing exceptional service and support, guiding you every step of the way to financial success. With BudgetEase Solutions, you can trust us to simplify your finances and pave the way for a brighter financial future.
             </p> */}
