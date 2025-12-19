@@ -4,32 +4,32 @@ export const avSlice = createSlice({
   name: "av",
   initialState: [
     {
-        img: "/images/addons/projector.png",
+        img: `${import.meta.env.BASE_URL}/images/addons/projector.png`,
         name: "Projectors",
         cost: 200,
         quantity: 0,
     },
     {
-        img: "/images/addons/speaker.png",
+        img: `${import.meta.env.BASE_URL}/images/addons/speaker.png`,
         name: "Speaker",
         cost: 35,
         quantity: 0,
     },
     {
-        img: "/images/addons/microphone.png",
+        img: `${import.meta.env.BASE_URL}/images/addons/microphone.png`,
         name: "Microphones",
         cost: 45,
         quantity: 0,
     },
     {
-        img: "/images/addons/whiteboard.png",
+        img: `${import.meta.env.BASE_URL}/images/addons/whiteboard.png`,
         name: "Whiteboards",
         cost: 80,
         quantity: 0,
     },
 
     {
-        img: "/images/addons/signage.png",
+        img: `${import.meta.env.BASE_URL}/images/addons/signage.png`,
         name: "Signage",
         cost: 80,
         quantity: 0,

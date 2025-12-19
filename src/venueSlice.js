@@ -5,31 +5,31 @@ export const venueSlice = createSlice({
   name: "venue",
   initialState: [
     {
-      img: "/images/venues/conference-room.png",
+      img: `${import.meta.env.BASE_URL}/images/venues/conference-room.png`,
       name: "Conference Room (Capacity:15)",
       cost: 3500,
       quantity: 0,
     },
     {
-      img: "/images/venues/autorium-hall.png",
+      img: `${import.meta.env.BASE_URL}/images/venues/autorium-hall.png`,
       name: "Auditorium Hall (Capacity:200)",
       cost: 5500,
       quantity: 0,
     },
     {
-      img: "/images/venues/presentation-room.png",
+      img: `${import.meta.env.BASE_URL}/images/venues/presentation-room.png`,
       name: "Presentation Room (Capacity:50)",
       cost: 700,
       quantity: 0,
     },
     {
-      img: "/images/venues/large-meeting-room.png",
+      img: `${import.meta.env.BASE_URL}/images/venues/large-meeting-room.png`,
       name: "Large Meeting Room (Capacity:10)",
       cost: 900,
       quantity: 0,
     },
     {
-      img: "/images/venues/small-meeting-room.png",
+      img: `${import.meta.env.BASE_URL}/images/venues/small-meeting-room.png`,
       name: "Small Meeting Room (Capacity:5)",
       cost: 1100,
       quantity: 0,
